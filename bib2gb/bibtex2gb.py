@@ -264,8 +264,8 @@ class GB():
                 f.write(line+'\n\n')
        
 if __name__ == '__main__':
-    path = '/Users/qali/Projects/pythonDoc/qingan.bib'
-    #path = sys.argv[1]
+    #path = '/Users/xxx/sample.bib'
+    path = sys.argv[1]
     print(path)
     bibtex = Bibtex(path)
     irList = bibtex.parse()
