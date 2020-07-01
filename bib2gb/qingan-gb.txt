@@ -1,0 +1,66 @@
+Fanfan S, Yanxiang H, Jun Z, et al. Reuse locality aware cache partitioning for last-level cache[J]. Comput. Electr. Eng., 2019, 74: 319-330.
+
+Jun Z, Yanxiang H, Fanfan S, et al. Memory-aware TLP throttling and cache bypassing for GPUs[J]. Cluster Computing, 2019, 22(Suppl 1): 871-883.
+
+Wei L, Ziqi S, Chun J, et al. A Wear Leveling Aware Memory Allocator for Both Stack and Heap Management in PCM-based Main Memory Systems[C]// Design. IEEE, 2019.
+
+Fuyang L, Qing'an L, Chun J, et al. Checkpointing-aware Data Allocation for Energy Harvesting Powered Non-volatile Processors[C]// 2019 IEEE Non-Volatile Memory Systems and Applications Symposium. IEEE, 2019.
+
+Mengying Z, Chenchen F, Zewei L, et al. Stack-Size Sensitive On-Chip Memory Backup for Self-Powered Nonvolatile Processors[J]. IEEE Trans. on CAD of Integrated Circuits and Systems, 2017, 36(11): 1804-1816.
+
+Keni Q, Qing'an L, Jingtong H, et al. Write Mode Aware Loop Tiling for High Performance Low Power Volatile PCM in Embedded Systems[J]. IEEE Trans. Computers, 2016, 65(7): 2313-2324.
+
+Yanxiang H, Tao Y, Yanzhao C, et al. 物联网环境中数据存储与查询机制研究 (Data Storage and Query in Internet of Things)[J]. 计算机科学, 2015, 42(3): 185-190.
+
+Qing'an L, Yanxiang H, Jianhua L, et al. Compiler-Assisted Refresh Minimization for Volatile STT-RAM Cache[J]. IEEE Trans. Computers, 2015, 64(8): 2169-2181.
+
+Qing'an L, Mengying Z, Jingtong H, et al. Compiler directed automatic stack trimming for efficient non-volatile processors[C]// Proceedings of the 52nd Annual Design Automation Conference. ACM, 2015.
+
+Mengying Z, Qing'an L, Mimi X, et al. Software assisted non-volatile register reduction for energy harvesting based cyber-physical system[C]// Proceedings of the 2015 Design. ACM, 2015.
+
+Keni Q, Mengying Z, Qing'an L, et al. Migration-Aware Loop Retiming for STT-RAM-Based Hybrid Cache in Embedded Systems[J]. IEEE Trans. on CAD of Integrated Circuits and Systems, 2014, 33(3): 329-342.
+
+Jianhua L, Liang S, Qing'an L, et al. Thread Progress Aware Coherence Adaption for Hybrid Cache Coherence Protocols[J]. IEEE Trans. Parallel Distrib. Syst., 2014, 25(10): 2697-2707.
+
+Yazhi H, Liang S, Jianhua L, et al. WCET-Aware Re-Scheduling Register Allocation for Real-Time Embedded Systems With Clustered VLIW Architecture[J]. IEEE Trans. Very Large Scale Integr. Syst., 2014, 22(1): 168-180.
+
+Qing'an L, Jianhua L, Liang S, et al. Compiler-Assisted STT-RAM-Based Hybrid Cache for Energy Efficient Embedded Systems[J]. IEEE Trans. Very Large Scale Integr. Syst., 2014, 22(8): 1829-1840.
+
+Liang S, Jianhua L, Qing'an L, et al. A Unified Write Buffer Cache Management Scheme for Flash Memory[J]. IEEE Trans. Very Large Scale Integr. Syst., 2014, 22(12): 2779-2792.
+
+Keni Q, Qing'an L, Chun J, et al. Write Mode Aware Loop Tiling for High Performance Low Power Volatile PCM[C]// The 51st Annual Design Automation Conference 2014. ACM, 2014.
+
+Qing'an L, Yanxiang H, Yong C, et al. A wear-leveling-aware dynamic stack for PCM memory in embedded systems[C]// Design. European Design and Automation Association, 2014.
+
+Yiqun W, Hongyang J, Yongpan L, et al. Register allocation for hybrid register architecture in nonvolatile processors[C]// IEEE International Symposium on Circuits and Systemss. IEEE, 2014.
+
+Jianhua L, Liang S, Qing'an L, et al. Low-energy volatile STT-RAM cache design using cache-coherence-enabled adaptive refresh[J]. ACM Trans. Design Autom. Electr. Syst., 2013, 19(1): 5:1-5:23.
+
+Wanyong T, Yingchao Z, Liang S, et al. Task Allocation on Nonvolatile-Memory-Based Hybrid Main Memory[J]. IEEE Trans. Very Large Scale Integr. Syst., 2013, 21(7): 1271-1284.
+
+Qing'an L, Jianhua L, Liang S, et al. Compiler-assisted refresh minimization for volatile STT-RAM cache[C]// 18th Asia and South Pacific Design Automation Conference. IEEE, 2013.
+
+Mengting Y, Chun J, Chen Y, et al. Minimizing code size via page selection optimization on partitioned memory architectures[C]// International Conference on Compilers. IEEE, 2013.
+
+Jianhua L, Liang S, Qing'an L, et al. Cache coherence enabled adaptive refresh for volatile STT-RAM[C]// Design. EDA Consortium San Jose, CA, USA / ACM DL, 2013.
+
+Qing'an L, Lei J, Youtao Z, et al. Compiler directed write-mode selection for high performance low power volatile PCM[C]// SIGPLAN/SIGBED Conference on Languages. ACM, 2013.
+
+Qing'an L, Yingchao Z, Jingtong H, et al. MGC: Multiple graph-coloring for non-volatile memory based hybrid Scratchpad Memory[C]// 16th Workshop on Interaction between Compilers and Computer Architectures. IEEE Computer Society, 2012.
+
+Jianhua L, Liang S, Qing'an L, et al. TEACA: Thread ProgrEss Aware Coherence Adaption for hybrid coherence protocols[C]// IEEE 10th Symposium on Embedded Systems for Real-time Multimedia. IEEE Computer Society, 2012.
+
+Qing'an L, Jianhua L, Liang S, et al. MAC: migration-aware compilation for STT-RAM based hybrid cache in embedded systems[C]// International Symposium on Low Power Electronics and Design. ACM, 2012.
+
+Qing'an L, Liang S, Jianhua L, et al. Code Motion for Migration Minimization in STT-RAM Based Hybrid Cache[C]// IEEE Computer Society Annual Symposium on VLSI. IEEE Computer Society, 2012.
+
+Qing'an L, Mengying Z, Chun J, et al. Compiler-assisted preferred caching for embedded systems with STT-RAM based hybrid cache[C]// SIGPLAN/SIGBED Conference on Languages. ACM, 2012.
+
+Yong C, Yanxiang H, Wei W, et al. Game Model Based Register Allocation[C]// Applied Informatics and Communication - International Conference. Springer, 2011.
+
+Yazhi H, Qing'an L, Chun J, et al. Minimizing Schedule Length via Cooperative Register Allocation and Loop Scheduling for Embedded Systems[C]// IEEE 10th International Conference on Trust. IEEE Computer Society, 2011.
+
+Qing'an L, Yanxiang H, Lei Z, et al. Integer Promotion Elimination on Abstract Syntax Tree[C]// 10th IEEE International Conference on Computer and Information Technology. IEEE Computer Society, 2010.
+
+Qing'an L, Yanxiang H, Yong C, et al. A Heuristic Algorithm for optimizing Page Selection Instructions[J]. CoRR, 2010, abs/1008.0909.
+
