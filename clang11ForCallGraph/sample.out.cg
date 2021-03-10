@@ -1,0 +1,4 @@
+< Functions > ->: g{int ()} f{int ()} 
+f ->: g{int ()} funcPtr{int (*)()} < >{float (*)()} 
+g ->: externFunc{int ()}
+
