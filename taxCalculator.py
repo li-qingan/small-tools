@@ -33,31 +33,36 @@ def salaryTaxCalc(amountPerMonth):
     align = alignClass(amountPerMonth)
     factor = g_sepTable[align][0]
     reduct = g_sepTable[align][1]
-    tax = amountPerMonth * factor  - reduct
-    return factor, tax * 12.0, reduct
-
-def bonusTaxCalc(bonus):
-    align = alignClass(bonus/12.0)
-    factor = g_sepTable[align][0]
-    reduct = g_sepTable[align][1]
-    tax = bonus * factor  - reduct
+    tax = (amountPerMonth * factor  - reduct) * 12.0
     return factor, tax, reduct
 
+def bonusTaxCalc(bonusPerMonth):
+    align = alignClass(bonusPerMonth)
+    factor = g_sepTable[align][0]
+    reduct = g_sepTable[align][1]
+    tax = bonusPerMonth*12.0 * factor  - reduct
+    return factor, tax, reduct
+
+# 分开计税
+# salary: 工资收入
+# bonus：年终奖
 def separateTax(salary, bonus):
     salaryFactor, salaryTax, salaryReduct = salaryTaxCalc(salary/12.0)
-    bonusFactor, bonusTax, bonusReduct = bonusTaxCalc(bonus)
+    bonusFactor, bonusTax, bonusReduct = bonusTaxCalc(bonus/12.0)
     
 
     print("\n单独计税:\t" + str(salaryTax + bonusTax) + "\n")
     
     print("\t1. 工资扣税:\t" + str(salaryTax))
-    print("\t系数: \t" + str(salaryFactor) + "\t速算扣除:\t" +str(salaryReduct*12.0) )
+    print("\t系数: \t" + str(salaryFactor) + "\t速算扣除:\t" +str(salaryReduct) + "*" + str(12.0) + "=" +str(salaryReduct*12.0) )
 
     print("\t2. 年终奖扣税:\t" + str(bonusTax))
     print("\t系数: \t" + str(bonusFactor) + "\t速算扣除:\t" +str(bonusReduct) )
 
     
-
+# 合并计税
+# salary: 工资收入
+# bonus：年终奖
 def mergeTax(salary, bonus):
     amount = (salary + bonus)/12.0
     factor, tax, reduct = salaryTaxCalc(amount)
